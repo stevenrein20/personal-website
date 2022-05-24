@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
+    "test": "echo \"No Tests\"",
     "start": "next start",
     "lint": "next lint",
     "deploy": "npm run build && touch ./out/.nojekyll && touch out/CNAME && echo \"stevenrein20.github.io/personal-website\" >> out/CNAME && gh-pages -d out -t true"
